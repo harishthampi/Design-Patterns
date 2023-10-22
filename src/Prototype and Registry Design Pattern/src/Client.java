@@ -25,19 +25,19 @@ public class Client {
     }
 
 
-    public static void fillRegister(StudentRegistry febBatch) {
+    public static void fillRegister(StudentRegistry studentRegistry) {
         Student febStudent = new Student();
         febStudent.setBatchName("Feb2023Batch");
         febStudent.setAvgPsp(87.75);
-        febBatch.register("Feb2023Batch",febStudent);
+        studentRegistry.register("Feb2023Batch",febStudent);
         Student marchStudent = new Student();
         marchStudent.setBatchName("March2023Batch");
         marchStudent.setAvgPsp(75.05);
-        febBatch.register("March2023Batch",marchStudent);
+        studentRegistry.register("March2023Batch",marchStudent);
         IntelligentStudent intelligentStudentMarch = new IntelligentStudent();
         intelligentStudentMarch.setBatchName("IntelligentStudentMarch2023Batch");
         intelligentStudentMarch.setAvgPsp(98.00);
         intelligentStudentMarch.iq=185;
-        febBatch.register("IntelligentStudentMarch",intelligentStudentMarch);
+        studentRegistry.register("IntelligentStudentMarch",intelligentStudentMarch);
     }
 }
