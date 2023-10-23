@@ -1,3 +1,5 @@
+package DecoratorDesignPattern;
+
 public class ChocolateScope implements IcecreamConeConstituent{
     private IcecreamConeConstituent icecreamConeConstituent;
     public ChocolateScope(IcecreamConeConstituent icecreamConeConstituent){
@@ -5,7 +7,7 @@ public class ChocolateScope implements IcecreamConeConstituent{
     }
     @Override
     public String getDescription() {
-        return icecreamConeConstituent.getDescription()+"+ ChocolateScope";
+        return icecreamConeConstituent.getDescription()+"+ DecoratorDesignPattern.ChocolateScope";
     }
 
     @Override

@@ -115,7 +115,7 @@ public class Student {
         }
 
         public Student build(){
-            //responsibility of build() is to build the Student object
+            //responsibility of build() is to build the PrototypeandRegistryDesignPattern.Student object
             //validation starts
             if(getGradYear()>2022){
                 throw new IllegalArgumentException("Invalid");

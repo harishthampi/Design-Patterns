@@ -1,3 +1,5 @@
+package DecoratorDesignPattern;
+
 public class ButterscotchScope implements IcecreamConeConstituent{
     private IcecreamConeConstituent icecreamConeConstituent;
     public ButterscotchScope(IcecreamConeConstituent icecreamConeConstituent){
@@ -5,7 +7,7 @@ public class ButterscotchScope implements IcecreamConeConstituent{
     }
     @Override
     public String getDescription() {
-        return icecreamConeConstituent.getDescription()+"+ ButterscotchScope";
+        return icecreamConeConstituent.getDescription()+"+ DecoratorDesignPattern.ButterscotchScope";
     }
 
     @Override

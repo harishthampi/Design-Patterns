@@ -1,3 +1,5 @@
+package DecoratorDesignPattern;
+
 public class VanilaScope implements IcecreamConeConstituent{
 private IcecreamConeConstituent icecreamConeConstituent;
 public VanilaScope(IcecreamConeConstituent icecreamConeConstituent){

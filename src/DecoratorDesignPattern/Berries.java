@@ -1,3 +1,5 @@
+package DecoratorDesignPattern;
+
 public class Berries implements IcecreamConeConstituent{
     private IcecreamConeConstituent icecreamConeConstituent;
     public Berries(IcecreamConeConstituent icecreamConeConstituent){
@@ -5,7 +7,7 @@ public class Berries implements IcecreamConeConstituent{
     }
     @Override
     public String getDescription() {
-        return icecreamConeConstituent.getDescription()+"+ Berries";
+        return icecreamConeConstituent.getDescription()+"+ DecoratorDesignPattern.Berries";
     }
 
     @Override

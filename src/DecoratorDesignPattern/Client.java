@@ -1,3 +1,5 @@
+package DecoratorDesignPattern;
+
 public class Client {
     public static void main(String[] args) {
         IcecreamConeConstituent icecream =

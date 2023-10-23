@@ -1,3 +1,4 @@
+package PrototypeandRegistryDesignPattern;
 public class Client {
     public static void main(String[] args) {
         StudentRegistry studentRegistry = new StudentRegistry();

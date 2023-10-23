@@ -1,3 +1,5 @@
+package DecoratorDesignPattern;
+
 public class ChocoChip implements IcecreamConeConstituent{
     private IcecreamConeConstituent icecreamConeConstituent;
     public ChocoChip(IcecreamConeConstituent icecreamConeConstituent){

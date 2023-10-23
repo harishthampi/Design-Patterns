@@ -1,3 +1,5 @@
+package PrototypeandRegistryDesignPattern;
+
 public class Student {
    private String name;
    private int age;
@@ -55,7 +57,7 @@ public class Student {
         this.avgPsp = student.avgPsp;
     }
     Student Clone(){
-//        Student student = new Student();
+//        PrototypeandRegistryDesignPattern.Student student = new PrototypeandRegistryDesignPattern.Student();
 //        student.setAvgPsp(this.getAvgPsp());
 //        student.setBatchName(this.getBatchName());
 //        return student;

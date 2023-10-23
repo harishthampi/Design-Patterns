@@ -1,3 +1,5 @@
+package PrototypeandRegistryDesignPattern;
+
 public class IntelligentStudent extends Student {
      int iq;
 
@@ -12,7 +14,7 @@ public class IntelligentStudent extends Student {
 
     @Override
     public IntelligentStudent clone(){
-//        Student iqStudent = new IntelligentStudent();
+//        PrototypeandRegistryDesignPattern.Student iqStudent = new PrototypeandRegistryDesignPattern.IntelligentStudent();
 //        iqStudent.setBatchName(iqStudent.getBatchName());
 //        iqStudent.setAvgPsp(iqStudent.getAvgPsp());
 //        return iqStudent;
