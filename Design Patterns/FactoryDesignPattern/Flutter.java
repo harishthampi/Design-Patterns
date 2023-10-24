@@ -1,7 +1,5 @@
 package FactoryDesignPattern;
 
-import jdk.incubator.vector.VectorOperators;
-
 public class Flutter {
     void setTheme(){
 
